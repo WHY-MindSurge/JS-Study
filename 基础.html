@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <!--行内式-->
+        <a href="javascript:alert('hello world')">点击我</a>
+        <div onclick="alert('hello world')">点击我</div>
+        <!--内嵌式-->
+        <script>
+            function sayHello(){
+                alert('hello world');
+            }
+        </script>
+        <!-- 外链式 -->
+        <script src="链接样式.js"></script>
+        <script>
+            //输出语句
+            alert('hello world');//页面弹框显示
+            document.write('hello world');//直接写在页面上
+            console.log('hello world');//在控制台中输出
+            //输入语句
+            prompt('请输入你的姓名');//页面弹框输入
+        </script>
+    </body>
+</html>
